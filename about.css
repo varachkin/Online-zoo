@@ -1,0 +1,6 @@
+.header__nav-list li:nth-child(1) a{
+    text-decoration: underline;
+    font-weight: 900;
+    color: #000000;
+    cursor: default;
+}

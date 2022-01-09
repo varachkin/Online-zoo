@@ -1,0 +1,152 @@
+.header__nav-list li:nth-child(2) a{
+    text-decoration: underline;
+    font-weight: 900;
+    color: #000000;
+    cursor: default;
+}
+.zoos{
+    display: flex;
+    /*min-height: 900px;*/
+    padding: 60px 0 100px;
+}
+.zoos .map-page-slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 26px;
+    max-width: 280px;
+}
+.zoos .map-page-slider span{
+    display: inline-block;
+    transform: rotateZ(90deg);
+    margin: 20px;
+}
+.zoos .map-page-slider span:hover{
+    cursor: pointer;
+    color: #a7a7a7;
+}
+.map-page-slider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 160px;
+}
+.slider-animal-back{
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #07EEE0, #DF496D);
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zoos .slider-animal-back{
+    margin: 10px;
+}
+.slider-animal-back:hover{
+    width: 157px;
+    height: 157px;
+
+}
+.slider-animal-back:hover .slider-animal-middle{
+    width: 153px;
+    height: 153px;
+}
+.slider-animal-back:hover img{
+    width: 137px;
+    height: 137px;
+}
+.slider-animal-active{
+    width: 157px;
+    height: 157px;
+}
+.slider-animal-active .slider-animal-middle{
+    width: 153px;
+    height: 153px;
+}
+.slider-animal-active div img{
+    width: 137px;
+    height: 137px;
+}
+.slider-animal-middle{
+    background-color: #FFFFFF;
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-animal-middle img{
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.zoos-content{
+    margin-left: 151px;
+    min-width: 790px;
+}
+.zoos-description{
+    margin-left: 30px;
+    max-width: 380px;
+}
+.zoos-description h5{
+    text-align: left;
+}
+.zoos-description p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #4F4F4F;
+}
+.zoos .button-gradient{
+    width: 194px;
+}
+.iframe{
+    margin: 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.dots{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.dot{
+    margin: 5px;
+    background: #C4C4C4;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+.dot-active{
+    height: 11px;
+    width: 11px;
+    background: linear-gradient(106.89deg, #4BD8B5 -14.32%, #49D6DF 100.68%);
+}
+.dot:hover{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.iframe{
+    position: relative;
+}
+.iframe div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.iframes{
+    display: flex;
+    justify-content: space-between;
+}
